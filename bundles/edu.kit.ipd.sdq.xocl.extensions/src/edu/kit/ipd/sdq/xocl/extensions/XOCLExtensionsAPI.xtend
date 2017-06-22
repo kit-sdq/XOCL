@@ -11,7 +11,7 @@
  *******************************************************************************/
 package edu.kit.ipd.sdq.xocl.extensions
 
-import edu.kit.ipd.sdq.mdsd.xtend.activeannotations.StaticDelegate
+import edu.kit.ipd.sdq.activextendannotations.StaticDelegate
 
 /**
  * A utility class providing many OCL-aligned extension methods, especially identical 
