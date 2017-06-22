@@ -1,5 +1,5 @@
 # XOCL
-OCL-aligned extension for Java- or Xtend-based languages
+OCL-aligned extension for Xtend- or Java-based languages
 
 XOCL lets you write code that looks like OCL but directly compiles to simple Java code without dynamic evaluation, interpretation or other indirections. More specifically, it provides many methods that are identical to common OCL methods and especially all collection operators ([ISO/IEC 19507:2012](http://www.omg.org/spec/OCL/ISO/19507/PDF) pp.156-168) and collection iterators (pp. 168-174). All OCL-aligned methods of XOCL adhere---of course--- to the semantics specified in the OCL standard.
 
