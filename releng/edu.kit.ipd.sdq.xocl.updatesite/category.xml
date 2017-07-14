@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/edu.kit.ipd.sdq.xocl.feature_1.0.0.qualifier.jar" id="edu.kit.ipd.sdq.xocl.feature" version="1.0.0.qualifier">
+      <category name="xocl"/>
+   </feature>
+   <category-def name="xocl" label="xocl">
+      <description>
+	OCL-aligned extension for Xtend- or Java-based languages
+      </description>
+   </category-def>
+</site>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>edu.kit.ipd.sdq.xocl</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../edu.kit.ipd.sdq.xocl.parent</relativePath>
+  </parent>
+  <artifactId>edu.kit.ipd.sdq.xocl.aggregator</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>../../features/edu.kit.ipd.sdq.xocl.feature</module>
+    <module>../../bundles/edu.kit.ipd.sdq.xocl.extensions</module>
+    <!-- TODO add further feature and bundle here -->
+    <!--<module>../../tests/edu.kit.ipd.sdq.xocl.tests</module>-->
+  </modules>
+</project>
