@@ -9,6 +9,9 @@ To write such OCL-aligned code you have two possibilities:
 
 2. call the OCL-aligned static methods in Java code. This way you still profit from the semantics of OCL methods but your syntax is far away from OCL (See below).
 
+## Install
+Install from [nightly update site](https://kit-sdq.github.io/updatesite/nightly/xocl) (only for use via "Install Software" in Eclipse)
+
 ## 1. Calling XOCL in Xtend code via static extension imports
 Thanks to Xtend's [extension method mechanism](https://eclipse.org/xtend/documentation/202_xtend_classes_members.html#extension-methods) and [nice syntax for lambdas](https://www.eclipse.org/xtend/documentation/203_xtend_expressions.html#lambdas) your Xtend code will be very close to OCL after a single import:
 ```java
