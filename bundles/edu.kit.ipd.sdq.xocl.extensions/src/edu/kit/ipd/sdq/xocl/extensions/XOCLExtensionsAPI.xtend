@@ -17,7 +17,7 @@ import edu.kit.ipd.sdq.activextendannotations.StaticDelegate
  * A utility class providing many OCL-aligned extension methods, especially identical 
  * collection operators (ISO/IEC 19507:2012 pp.156-168) and collection iterators (ISO/IEC 19507:2012 pp. 168-174)
  */
-@StaticDelegate(delegationTargets=#[BooleanXOCLExtensions,ClassXOCLExtensions,IterableXOCLExtensions,ListXOCLExtensions,NumberXOCLExtensions,ObjectXOCLExtensions,SetXOCLExtensions])
+@StaticDelegate(value=#[BooleanXOCLExtensions,ClassXOCLExtensions,IterableXOCLExtensions,ListXOCLExtensions,NumberXOCLExtensions,ObjectXOCLExtensions,SetXOCLExtensions])
 class XOCLExtensionsAPI {
 	/** Utility classes should not have a public or default constructor. */
 	private new() {
