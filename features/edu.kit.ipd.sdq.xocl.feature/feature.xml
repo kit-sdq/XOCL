@@ -14,8 +14,9 @@
       [TODO Enter License Description here.]
    </license>
    <requires>
-      <import feature="org.eclipse.xtend.sdk" version="2.10.0" match="greaterOrEqual"/>
-      <import feature="edu.kit.ipd.sdq.activextendannotations.feature" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.xtend"/>
+      <import feature="edu.kit.ipd.sdq.activextendannotations.feature.source" version="1.0.0" match="greaterOrEqual"/>
+      <import feature="edu.kit.ipd.sdq.mdsd.ecore2txt.feature.source" version="1.0.0" match="greaterOrEqual"/>
    </requires>
    <!-- TODO include subfeature instead of plug-ins here -->
    <plugin
