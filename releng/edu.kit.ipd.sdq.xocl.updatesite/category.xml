@@ -6,7 +6,7 @@
    <feature id="edu.kit.ipd.sdq.xocl.feature.source" version="1.0.0.qualifier">
       <category name="xocl"/>
    </feature>
-   <category-def name="xocl" label="xocl">
+   <category-def name="xocl" label="XOCL">
       <description>
 	OCL-aligned extension for Xtend- or Java-based languages
       </description>
